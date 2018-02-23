@@ -15,7 +15,7 @@ namespace KafkaPublishConsumer
 
             client.SendMessageAsync("testtopic", new[]{ new Message("Hi Hello! Welcome to Kafka!") }).Wait();
             Console.ReadLine();
-
+              
         }
     }
 }
